@@ -1,0 +1,24 @@
+package days09;
+
+import java.util.Date;
+
+public class Ex01_02 {
+
+	public static void main(String[] args) {
+		// 1. 요일 
+		// 2. 마지막 날짜
+		
+		Date d = new Date(2022-1900, 7-1, 1);
+		System.out.println(d.toLocaleString());
+		
+		int dayOfWeek = d.getDay();
+		System.out.println(dayOfWeek);
+		
+		d.setMonth(d.getMonth()+1);
+		System.out.println(d.toLocaleString());
+		
+		
+
+	}//main
+
+}//class

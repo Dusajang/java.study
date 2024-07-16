@@ -1,0 +1,31 @@
+package days12;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 16.오후 2:26:09
+ * @subject		[접근지정자] 설명
+ * @content		1) 클래스 선언
+ * 							ㄱ. public - 패키지 내부, 외부 어디서든 상속과 참조가 가능한 경우
+ * 
+ * 							ㄴ. package (defult) - 패키지 내부에서만 상속과 참조가 가능
+ * 
+ * 							ㄷ. protected
+ * 							ㄹ. private
+ * 
+ * 						2) 멤버들(필드, 메서드) 선언
+ *
+ */
+public class Ex05 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}//class
+
+//The public type Member must be defined in its own file
+class Member {}
+
+
+

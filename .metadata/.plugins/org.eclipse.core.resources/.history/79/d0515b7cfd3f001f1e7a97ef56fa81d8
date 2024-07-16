@@ -1,0 +1,88 @@
+package days010;
+
+import java.util.Scanner;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 12.오전 11:27:31
+ * @subject		배열 단점 -> 컬렉션 클래스 JCF java collection framework
+ * @content
+ *
+ */
+public class Ex04 {
+	
+	static int index = 0;
+	static char con ='y';
+	static Scanner scanner = new Scanner(System.in);
+	static int[] m = new int[2];
+	static int selectedNumber;	// 선택된 메뉴 번호를 저장할 변수
+	static String[] menus = {"추가", "수정", "삭제", "검색, ", "조회", "종료"};
+
+	public static void main(String[] args) {
+	
+		dispMenus();
+		selectMenus();
+		processMenus();
+		
+		
+	}//main
+	// [enum 열거형 선언]
+	static final int ADD = 1;
+	static final int EDIT = 2;
+	
+	private static void processMenus() {
+		switch (selectedNumber) {
+		case ADD:		//추가
+			break;
+		case EDIT:		//수정
+			break;
+		case 3:		//삭제
+			break;
+		case 4:		//검색
+			break;
+		case 5:		//조회
+			break;
+		case 6:		//종료
+			exit();
+			break;
+
+		}
+		
+	}
+
+	private static void exit() {
+		System.out.println("\n\n 프로그램을 종료");
+		System.exit(-1);
+		
+	}
+
+	private static void selectMenus() {
+		String regex = "[1-6]";
+		String inputData;
+		do {
+			System.out.println(">메뉴 선택");	//1~6
+			inputData = scanner.next();
+			
+		} while (!inputData.matches(regex));
+		selectedNumber = Integer.parseInt(inputData);	
+	}
+
+	
+	private static void dispMenus() {		//메뉴 출력 함수
+		System.out.println("\t\t\t[메뉴]");
+		for (int i = 0; i < menus.length; i++) {
+			System.out.printf("[%d]%s\t", i+1, menus[i]);
+		}
+		System.out.println();
+	}
+
+}//class
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+package days08_Review;
+
+public class Home_Review01_02 {
+
+	public static void main(String[] args) {
+		//1. 주민등록 번호를 입력받아서 만 나이를 계산하는 메서드 선언
+		//960501-1234567
+
+	}//main
+
+}//class

@@ -1,0 +1,83 @@
+package days010;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Test01 {
+
+	public static void main(String[] args) throws IOException {
+		
+		String name;
+		int kor,eng,mat,tot;
+		double avg;
+		
+		final int STUDENT_COUNT = 30;
+		
+		String[] names = new String[STUDENT_COUNT];
+		int[] kors = new int[STUDENT_COUNT];
+		int[] engs = new int[STUDENT_COUNT];
+		int[] mats = new int[STUDENT_COUNT];
+		int[] tots = new int[STUDENT_COUNT];
+		double[] avgs = new double[STUDENT_COUNT];
+		int count = 0;
+		
+		Scanner scanner = new Scanner(System.in);
+		char con = 'y';
+		
+		
+		studentInfomationInput()
+		
+		studentInfomationOutput()
+		
+			
+		
+
+
+		
+
+	
+	}//main
+	
+	public static void studentInfomationInput(Scanner scanner) {
+		
+		do {
+			System.out.printf(">이름, 국어, 영어, 수학 입력", count+1);
+			
+			name = scanner.next();
+			kor = scanner.nextInt();
+			eng = scanner.nextInt();
+			mat = scanner.nextInt();
+			tot = kor + eng + mat;
+			avg = (double)tot/3;
+			
+			names[count] = name;
+			kors[count] = kor;
+			engs[count] = eng;
+			mats[count] = mat;
+			tots[count] = tot;
+			avgs[count] = avg;
+			
+			count++;
+			
+			System.out.println("계속 입력 'Y' 입력");
+			con = (char) System.in.read();
+			System.in.skip(System.in.available());
+		} while (Character.toUpperCase(con) == 'Y');
+		
+	}
+	
+	
+	public static void studentInfomationOutput(String[]...args) {
+		count = 0;
+		for (int i = 0; i < count; i++) {
+			System.out.printf("%s\t%d\t%d\t%d\t%d\t%.2f", names[i], kors[i], engs[i], mats[i], tots[i], avgs[i] );
+		}
+	}
+
+}//class
+
+
+
+
+
+
