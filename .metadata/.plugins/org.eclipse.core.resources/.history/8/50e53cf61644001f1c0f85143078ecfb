@@ -1,0 +1,48 @@
+package days13;
+
+public class BlockTest {
+	
+	static double rate = 0.0;		//  명시적 초기화
+	String name;
+	int age;
+	
+	BlockTest(){
+		this.name = "익명";
+		System.out.println(">디폴트 생성자 호출됨");
+	}
+	
+	{
+		// 인스턴스 초기화 블럭
+		System.out.println("인스턴스 초기화 블럭 {}");
+	}
+	
+	static {
+		//클래스(static) 초기화 블럭
+		// 클래스 변수를 초기화 하기 위한 블럭
+		//객체 생성과 상관없이 프로그램이 시작할 때 한 번 static 초기화 블럭이 실행된다.
+		//인스턴스 변수는 초기화 X
+		System.out.println("클래스(static) 초기화 블럭 {}");
+		rate = 0.04;
+	}
+
+	public static void main (String[] args) {
+		
+		System.out.println("1");
+		BlockTest bt1 = new BlockTest();
+		
+		System.out.println("2");
+		BlockTest bt2 = new BlockTest();
+		
+		System.out.println(rate);
+		
+		System.out.println("end");
+		
+		
+		
+	}//main
+	
+}//class
+
+
+
+

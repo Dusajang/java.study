@@ -1,0 +1,29 @@
+package days13;
+
+public class Person {
+		
+		//field
+		private String name;
+		private int age;
+		private boolean gender;
+		
+		//method
+		public void dispPerson() {
+			System.out.printf(">이름 : %s, 나이 : %d\n"
+										, name, age);
+		}
+		
+		//getter, setter
+		public void setAge(int _age) {
+			age = _age;
+		}
+		public int getAge() {
+			return age;
+		}
+
+		
+}//Person
+
+
+
+

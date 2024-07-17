@@ -1,0 +1,33 @@
+package days13;
+
+public class Person {
+		
+		//field
+		private String name;
+		private int age;
+		private boolean gender;
+		
+		//method
+		public void dispPerson() {
+			System.out.printf(">이름 : %s, 나이 : %d\n"
+										, name, age);
+		}
+		
+		//getter, setter
+		public void setAge(int _age) {		//쓰기 전용
+			if (0>_age || _age>150) {
+				age = _age;
+			}else {
+				throw new NullPointerException();
+			}
+		}
+		public int getAge() {		//읽기 전용
+			return age;
+		}
+
+		
+}//Person
+
+
+
+
