@@ -1,0 +1,34 @@
+package days14;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 18.오후 2:08:22
+ * @subject
+ * @content
+ *
+ */
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 			[상속 계층도]
+		 * 
+		 * Point
+		 */
+		
+
+	}//main
+
+}//class
+
+class point{
+	
+}
+
+
+
+
+
+
+
