@@ -1,0 +1,25 @@
+package days15;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 19.오전 11:25:25
+ * @subject
+ * @content
+ *
+ */
+public class Ex03 {
+
+	public static void main(String[] args) {
+		/*[다형성(polymorphism]
+		 * - 여러 가지 형태를 가질 수 있는 능력
+		 * - E e1 = new R();
+		 * - E e1 = new S();
+		 * - E e1 = new T();
+		 * 힌 타입의 참조변수로 여러 ㅈ타입의 객체를 참조할 수 있는 것
+		 * 
+		 * 
+		 */
+
+	}//main
+
+}//class

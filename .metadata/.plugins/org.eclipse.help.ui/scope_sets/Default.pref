@@ -1,2 +1,5 @@
-#Wed Jul 17 12:32:25 GMT+09:00 2024
+#Fri Jul 19 13:57:43 GMT+09:00 2024
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
 __DEFAULT__=true

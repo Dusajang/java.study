@@ -20,5 +20,6 @@ public class Ex11_02 {
 
 	public static void test(Employee emp) {  // 매개변수 다형성 개념
 		
+		//다운캐스팅~ instanceof
 	}
 }
