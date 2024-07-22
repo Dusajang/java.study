@@ -1,0 +1,73 @@
+package days16;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Ex05_02 {
+
+	public static void main(String[] args) {
+		// days16.Ex01.java  읽어와서
+		// "예외" 문자열이 있는 위치값을 모두 출력
+
+		String fileName = "C:\\Class\\Workspace\\JavaClass\\javaPro\\src\\days16\\Ex01.java";
+		String content = getFileContent();
+
+		
+
+		System.out.println(  fileName.contains("예외"));
+		System.out.println(  fileName.indexOf("예외"));
+		
+		System.out.println(content);
+
+
+
+	}//main
+
+	private static String getFileContent() {
+		FileReader reader = null;
+
+	
+		BufferedReader bufferedReader = null;
+		String fileName = "C:\\Windows\\comsetup.log";
+
+		int one = -1;
+		String content = "";
+
+		try {
+			reader = new FileReader(fileName);
+			
+			bufferedReader = new BufferedReader(reader);
+
+			
+			String line = null;
+			int lineNumber = 1;
+			
+			while((line = bufferedReader.readLine()) != null) {
+				//System.out.printf("%d : %s\n", lineNumber++, line);
+				content += line;
+			}
+
+			System.out.println(line);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if(reader != null) {
+				try {
+					reader.close();
+					reader = null;
+					bufferedReader.close();
+					bufferedReader = null;
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}//try
+		return null;
+	
+
+
+}//class

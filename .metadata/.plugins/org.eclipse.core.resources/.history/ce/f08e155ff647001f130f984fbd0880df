@@ -1,0 +1,21 @@
+package days16;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 22.오후 3:46:34
+ * @subject
+ * @content
+ *
+ */
+public class Ex05_04 {
+
+	public static void main(String[] args) {
+		
+		String todo = "    홍길동    ";
+		System.out.printf("[%s]", todo);
+		System.out.printf("[%s]", todo.trim());
+		System.out.printf("[%s]", todo.strip());
+
+	}//main
+
+}//class

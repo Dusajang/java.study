@@ -1,0 +1,45 @@
+package days16;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 22.오후 12:07:28
+ * @subject
+ * @content
+ *
+ */
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+		// [java.lang 패키지 - 자바 가장 기본이 되는 클래스]
+		// java.util 패키지 - 자주 사용되는 유용한 클래스
+		// 1. [java.lang.Object 클래스]
+		
+		Item item1 = new Item(10);
+		Item item2 = new Item(10);
+		System.out.println(item1.hashCode());
+		System.out.println(item2.hashCode());
+		//  ㄱ. hashCode()
+		//       객체가 메모리상에 생성되면 생성된 객체의 주소값을 해싱기법을 사용해서 해시코드를 만들어서 반환하는 메서드이다.
+
+	}//main
+
+}//class
+
+class Item extends Object{
+
+	//필드
+	int value;
+
+	//생성자1
+	Item(int value) {
+		this.value = value;
+	}
+}//Item class
+
+
+
+
+
+
+

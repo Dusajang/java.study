@@ -1,0 +1,31 @@
+package days16;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 22.오후 4:07:45
+ * @subject
+ * @content
+ *
+ */
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		String fileName = ".\\src\\days16\\SS21.txt";
+		System.out.println(System.getProperty("user,dir"));
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+
+
+

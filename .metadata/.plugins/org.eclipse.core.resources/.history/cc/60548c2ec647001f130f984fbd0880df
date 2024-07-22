@@ -1,0 +1,48 @@
+package days16;
+
+import java.util.Scanner;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 22.오전 9:33:44
+ * @subject
+ * @content
+ *
+ */
+public class Ex01_02 {
+
+	public static void main(String[] args) {
+		int a = 0, b = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		boolean t = false;
+		while (!t) {
+			
+			try {
+				System.out.print(">a, b 두 정수 입력");
+				 a = scanner.nextInt();
+				//InputMismatchException   a=>nextInt()
+				b = scanner.nextInt();
+			} catch (Exception e) {
+				//예외가 발생한 순간 catch 문으로 이동
+				//여기에 예외처리하는 코딩
+				System.out.println(">입력값 잘못 실패...");
+				
+				t = true;
+			}// try catch
+			
+		}//while
+		
+		
+		
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+

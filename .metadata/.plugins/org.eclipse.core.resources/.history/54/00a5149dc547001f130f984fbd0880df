@@ -1,0 +1,24 @@
+package days16;
+
+import java.util.Scanner;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 22.오전 9:33:44
+ * @subject
+ * @content
+ *
+ */
+public class Ex01_02 {
+
+	public static void main(String[] args) {
+		int a = 0, b = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println(">a, b 두 정수 입력");
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+
+	}//main
+
+}//class

@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="days12.Member"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
-    <fullyQualifiedTypeName name="days12.Point"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="days12.Student"/>
-    <fullyQualifiedTypeName name="days13.Time"/>
-    <fullyQualifiedTypeName name="days13.Person"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="days13.Member"/>
     <fullyQualifiedTypeName name="days13.Point"/>
     <fullyQualifiedTypeName name="days13.Save"/>
     <fullyQualifiedTypeName name="days13.BlockTest"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="days14.Document"/>
     <fullyQualifiedTypeName name="days14.Car"/>
     <fullyQualifiedTypeName name="days14.Engine"/>
@@ -23,20 +12,15 @@
     <fullyQualifiedTypeName name="days14.Point3D"/>
     <fullyQualifiedTypeName name="days12.Tv"/>
     <fullyQualifiedTypeName name="days14.CaptionTv"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="days14.Shape"/>
     <fullyQualifiedTypeName name="days14.Point"/>
     <fullyQualifiedTypeName name="days14.Triangle"/>
     <fullyQualifiedTypeName name="days14.Parent"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="javax.smartcardio.CardException"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="days14.Regular"/>
     <fullyQualifiedTypeName name="days15.Child"/>
     <fullyQualifiedTypeName name="days15.Parent"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="days15.HTMLParser"/>
     <fullyQualifiedTypeName name="days15.Parseable"/>
     <fullyQualifiedTypeName name="days15.ParderManager"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="days16.ScoreOutOfBoundException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="days16.Item"/>
+    <fullyQualifiedTypeName name="days16.Person"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>

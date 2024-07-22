@@ -5,8 +5,8 @@ import java.util.Arrays;
 /**
  * @author dkrkdfla
  * @date 2024. 7. 15.오후 4:14:36
- * @subject
- * @content
+ * @subject		몇 번째 인덱스에 있는지
+ * @content     한 번 찾고서 멈추지 않고 끝까지 찾기
  *
  */
 public class Ex03 {
