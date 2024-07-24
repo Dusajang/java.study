@@ -1,0 +1,23 @@
+package ch01.verify;
+
+
+class Solution {
+	
+	
+    public String solution(String code) {
+        String answer = "";
+        int mod = 0;
+        
+        int idx;
+        String code = "abc1abc1abc";
+       
+        
+        return answer;
+    }
+}
+	
+    
+
+	
+
+

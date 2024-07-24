@@ -1,0 +1,21 @@
+package days18;
+
+import java.time.LocalDate;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 24.오후 12:13:08
+ * @subject
+ * @content
+ *
+ */
+public class Ex03_02 {
+
+	public static void main(String[] args) {
+		
+		LocalDate ld = LocalDate.now();
+		System.out.println(ld.toString());
+
+	}
+
+}

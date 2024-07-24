@@ -1,0 +1,39 @@
+package days17;
+
+import java.util.Calendar;
+
+public class Ex09_02 {
+
+	public static void main(String[] args) {
+		// 개강일부터 현재까지 며칠, 몇 시간, 몇 분, 몇 초, 몇 밀리초....출력
+		
+		Calendar firstDay = Calendar.getInstance();
+		Calendar nowDay = Calendar.getInstance();
+		
+		firstDay.set(2024, 7, 1, 9, 0, 0);
+		nowDay.set(2024, 7, 23, 18, 0, 0);
+		
+		dayComp(firstDay, nowDay);
+		
+
+	}
+
+	private static void dayComp(Calendar firstDay, Calendar nowDay) {
+		long firstms = firstDay.get(Calendar.MILLISECOND);
+		long nowms = nowDay.get(Calendar.MILLISECOND);
+		
+		long timeGap = 0;
+		timeGap = nowms-firstms;
+		
+		long sec =0, min = 0, hour = 0, day = 0;
+		
+		sec =  (timeGap / 1000);
+		min =  (timeGap / 1000/60);
+		hour =  (timeGap / 1000/60/60);
+		day =  (timeGap * 1000*60*60*24);
+		
+		System.out.printf("%l %l %l %l", sec, min, hour, day);
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package days18;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 24.오전 10:36:24
+ * @subject         형식화(format) 클래스
+ * @content        1. SimpleDateFormat
+ *                       2. Decimal Format
+ *                       3. Choice Format
+ *                       4. Message Format
+ *
+ */
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Calendar c = Calendar.getInstance();
+		Date d = c.getTime();
+		
+		String pattern = "yyyy,MM,dd (E) hh:mm:ss";
+		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+		String s = sdf.format(d);
+		System.out.println(s);
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+
+
+
+

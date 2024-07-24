@@ -1,0 +1,22 @@
+package days17;
+
+import java.util.Date;
+
+import javax.xml.crypto.Data;
+
+public class Ex08_02 {
+
+	public static void main(String[] args) {
+		// 2020 5월 달력
+		//1. 2020.5.1 무슨 요일?
+		//2. 마지막 날짜?
+		
+		Data d = (Data) new Date(2020, 5, 1);
+		System.out.println(d);
+		
+		
+		
+
+	}//main
+
+}//class

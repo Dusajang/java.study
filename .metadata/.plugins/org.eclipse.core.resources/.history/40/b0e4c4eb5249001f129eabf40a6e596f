@@ -1,0 +1,32 @@
+package days18;
+
+import java.util.Calendar;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		// 3. 수료일(2024.12.14. 18:00:00)로 부터 오늘까지 남은 일수 계산을 하세요.. 
+		
+		Calendar today = Calendar.getInstance();
+		Calendar lastday = Calendar.getInstance();
+		
+		today.set(2024, 7, 24, 9, 0, 0);
+		lastday.set(2024, 12, 14, 18, 0, 0);
+		
+		dayCount(today, lastday);
+
+	}
+
+	private static void dayCount(Calendar today, Calendar lastday) {
+		long todayms = today.getTimeInMillis();
+		long lastdayms = lastday.getTimeInMillis();
+		
+		long timeGap =  lastdayms - todayms;
+		
+		int day=0, hour=0, sec=0, ms=0;
+		System.out.println(timeGap);
+		
+		
+	}
+
+}

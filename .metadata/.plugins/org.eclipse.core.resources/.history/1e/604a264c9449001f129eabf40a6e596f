@@ -1,0 +1,25 @@
+package days18;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		// 한 반 30명 학생 성적처리
+		// ㄱ. 배열 String [] names = new String[30];
+		// *** ㄴ. 클래스 배열 Student [] s = new student[30];
+		// ㄷ. 클래스 배열X -> ArrayList 사용
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+package days17;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//출력값 "ababababab";
+		String str1 = "aaaaa";
+		String str2 = "bbbbb";
+		String answer = "";
+		
+		 str1.valueOf( str1.charAt(0) );
+		 System.out.println( str1.valueOf( str1.charAt(0) ));
+		 System.out.println( str2.valueOf( str2.charAt(0) ));
+		
+//		for (int i = 0; i < 5; i++) {
+//			answer += str1.charAt(i);
+//			answer += str2.charAt(i);
+//		}
+		System.out.println(answer);
+        //return answer;
+
+	}//main
+
+}//class

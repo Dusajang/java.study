@@ -1,0 +1,25 @@
+package days18;
+
+import java.util.Date;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		int year = 2024;
+		
+		for (int i = 1; i <= 12; i++) {
+			int lastDay = getLastDay(year, i);
+			System.out.printf("%d월 : %d일\n", i, lastDay);
+		}
+
+	}
+
+	private static int getLastDay(int year, int month) {
+		Date d = new Date(year-1900, month-1, 1);
+		d.setMonth(d.getMonth()+1);
+		d.setDate(d.getDate()-1);
+		return d.getDate();      //31
+	}
+	
+}

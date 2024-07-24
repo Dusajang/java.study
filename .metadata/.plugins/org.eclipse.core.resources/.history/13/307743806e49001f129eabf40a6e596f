@@ -1,0 +1,55 @@
+package days18;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.temporal.ChronoField;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 24.오후 12:26:23
+ * @subject
+ * @content
+ *
+ */
+public class Ex03_03 {
+
+	public static void main(String[] args) {
+		LocalDate ld = LocalDate.now();
+		System.out.println(ld);  //2024-07-24
+		//년
+		//int year =  ld.get(ChronoField.YEAR);
+		int year = ld.getYear();
+		System.out.println(year);
+		
+		//월
+		//int month = ld.get(ChronoField.MONTH_OF_YEAR);
+		int month = ld.getMonthValue();
+		System.out.println(month);
+		
+		//일
+		//int day = ld.get(ChronoField.DAY_OF_MONTH);
+		int day = ld.getDayOfMonth();
+		
+		//요일
+		//DayOfWeek date = ld.getDayOfWeek();
+		int date = ld.get(ChronoField.DAY_OF_WEEK);
+		System.out.println(date);
+		
+		LocalTime lt = LocalTime.now();
+		//시
+		//int hour = lt.get(ChronoField.HOUR_OF_DAY);
+		int hour = lt.getHour();
+		System.out.println(hour);
+		
+		//분
+		int min = lt.get(ChronoField.MINUTE_OF_DAY);
+		System.out.println(min);
+		//초
+		//밀리초
+		//나노
+		
+	}//main
+
+}//class

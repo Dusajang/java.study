@@ -1,0 +1,45 @@
+package days17;
+
+import java.io.FileReader;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 23.오후 2:11:39
+ * @subject
+ * @content
+ *
+ */
+public class Ex06 {
+
+	public static void main(String[] args) {
+		String fileName = ".\\src\\days17\\Ex01.java";
+		
+		try (FileReader reader = new FileReader(fileName)  ){
+			
+			//int reader.read();  문자코드값이 리더로 읽힘  -1
+			int code;
+			while ((code = reader.read()) != -1) {
+				System.out.println(code);
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+
+
+

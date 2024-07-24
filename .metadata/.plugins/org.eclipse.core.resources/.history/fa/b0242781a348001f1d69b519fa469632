@@ -1,0 +1,31 @@
+package days17;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 23.오후 12:21:37
+ * @subject
+ * @content
+ *
+ */
+public class Ex04 {
+
+	public static void main(String[] args) {
+		//boxing, unboxing
+		int i = 100;     //기본형 int
+		Integer j = i;     // wrapper class Integer
+		System.out.println(j);
+		
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+

@@ -33,12 +33,6 @@ public class Point {
 		}
 
 		
-		@Override
-		public String toString() {
-			return "Point [x=" + x + ", y=" + y + "]";
-		}
-
-
 		//Duplicate method plusPoint(Point) in type Point
 		public void plusPoint(Point p) {
 			x = x + p.x;

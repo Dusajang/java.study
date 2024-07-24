@@ -1,0 +1,11 @@
+package days18;
+
+public class Ex02_05 {
+
+	public static void main(String[] args) {
+
+		String s = "[팀장]김재민(전), 김선우(전), 김인경(비),  송세호(비), 전재윤(전)";
+
+	}
+
+}

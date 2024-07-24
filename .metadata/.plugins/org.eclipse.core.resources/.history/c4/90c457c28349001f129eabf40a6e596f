@@ -1,0 +1,22 @@
+package days18;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class Ex03_09 {
+
+	public static void main(String[] args) {
+		// Period = 날짜 - 날짜
+		// Duration = 시간 - 시간
+		
+		
+		LocalDate ed = LocalDate.of(2024, 12, 14);
+		ed = ed.plusDays(1);
+		LocalDate td = LocalDate.now();
+		
+		Period p = Period.between(td, ed);
+		System.out.println(p);
+
+	}
+
+}

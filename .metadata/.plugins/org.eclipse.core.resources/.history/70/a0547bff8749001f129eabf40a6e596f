@@ -1,0 +1,25 @@
+package days18;
+
+import java.util.ArrayList;
+
+public class Ex04_02 {
+	
+	public static void main(String[] args) {
+		//배열 단점
+		// 요소의 추가 제거가 불편함
+		
+		//<E> 제네릭 클래스   Element == 요소
+		//ArrayList list = new ArrayList(10);
+		ArrayList list = new ArrayList();
+		System.out.println(list.size());
+		list.add("이시훈");
+		list.add("원충희");
+		list.add("김준석");
+		System.out.println(list.toString());
+		System.out.println(list);
+		System.out.println(list.size());
+		
+		
+	}//main
+
+}//class

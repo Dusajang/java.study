@@ -1,0 +1,29 @@
+package days17;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		String fileName = "SS21_Team.txt";
+		
+		String myName = "송세호";
+		String teamLeader = null;
+		String teamLine = null;
+		String teamMemberLine = null;
+		String[] teamMember = null;  //팀원들 저장할 배열
+		String regex = "\\s*,\\s*";
+		
+		String key = "user.dir";
+		String userDir = System.getProperty(key);
+		
+		fileName = String.format("%s\\src\\days17\\%s", userDir, fileName);
+		System.out.println(fileName);
+		
+		try (){
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}//main
+
+}//class

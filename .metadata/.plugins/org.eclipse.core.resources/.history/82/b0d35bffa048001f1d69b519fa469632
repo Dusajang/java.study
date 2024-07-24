@@ -1,0 +1,38 @@
+package days17;
+
+import java.util.Arrays;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 23.오전 11:43:48
+ * @subject
+ * @content
+ *
+ */
+public class Ex02 {
+
+	public static void main(String[] args) {
+		String[] answer = solution("abc1Addfggg4556b",6);
+		System.out.println(Arrays.toString(answer));
+//		String[] answer = solution("abcdef123", 	3);
+//		System.out.println(Arrays.toString(answer));
+
+	}//main
+	
+	 public static String[] solution(String my_str, int n) {
+		 	int length = (int) Math.ceil( (double) my_str.length()/n );
+	        String[] answer = new String [length];
+	        
+	        int beginIndex = 0, endIndex =n;
+//	        answer[0] = my_str.substring(0, n);
+//	        answer[i] = my_str.substring(i*n, (i+1)*n);
+//	        //answer[2] = my_str.substring(12, 18);
+	        
+	        for (int i = 0; i < length; i++) {
+	        	answer[i] = my_str.substring(i*n, (i+1)*n);
+			}
+	        
+	        return answer;
+	 }
+	 
+}//class

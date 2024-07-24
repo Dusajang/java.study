@@ -1,0 +1,21 @@
+package ch01.verify;
+
+public class Aasdasd {
+
+	public static void main(String[] args) {
+		
+		int n =7;
+		int answer = 0;
+		
+		for(int i = 1 ; i <= n; i++){
+            if(n % 2 != 0){
+                answer += i;
+            } else{
+                answer += i^2;
+            }
+        }
+		System.out.println(answer);
+
+	}//main
+
+}

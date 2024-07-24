@@ -1,0 +1,21 @@
+package ch01.verify;
+
+public class Aasdasd {
+
+	public static void main(String[] args) {
+		 int answer = 0;
+		 
+		 int a = 9;
+		 int b = 91;
+	        String a1 = ""+a+b;
+	        String a2 = ""+b+a;
+	        
+	        if(Integer.parseInt(a1) >  Integer.parseInt(a2)) answer = Integer.parseInt(a1);
+	        else if(Integer.parseInt(a1) < Integer.parseInt(a2)) answer = Integer.parseInt(a2);
+	        
+	        
+	        System.out.println(answer);
+	        return answer;
+	}//main
+
+}
