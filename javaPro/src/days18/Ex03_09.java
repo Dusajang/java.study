@@ -19,9 +19,9 @@ public class Ex03_09 {
 		
 		Period p = Period.between(td, ed);
 		System.out.println(p); // P4M21D
-		System.out.println(p.getYears());
-		System.out.println(p.getMonths());
-		System.out.println(p.getDays());
+		System.out.println(p.getYears());      //0
+		System.out.println(p.getMonths());   //4
+		System.out.println(p.getDays());      //21
 		
 		// 18:00:00 퇴근시간까지의 남은 시간 파악
 		LocalTime et = LocalTime.of(18, 0);

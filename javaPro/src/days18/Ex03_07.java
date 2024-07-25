@@ -34,10 +34,10 @@ public class Ex03_07 {
 		System.out.println(lastDay);
 		 */
 
-		/*
+		/* 지금 월에 총 며칠인지 구하기
 		LocalDate d = LocalDate.now();
 		System.out.println(d.lengthOfMonth());
-		 */
+		*/
 
 		//Temporal + Adjusters    메서드 정리
 		//시간상의          조정자

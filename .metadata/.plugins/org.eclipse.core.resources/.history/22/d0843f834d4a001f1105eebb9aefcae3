@@ -1,0 +1,31 @@
+package days19;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 25.오후 2:48:20
+ * @subject
+ * @content
+ *
+ */
+public class Ex09 {
+
+	public static void main(String[] args) {
+		//List : 어레이리스트AL. 벡터V. 링크드리스트LL, 스텍S, 링크드리스트LL(큐, 디큐), 프라이오리티큐PQ
+		//Set : HashSet, 
+
+	}//main
+
+}//class
+
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+class Person1{
+	String id;  //식별자
+	String name;
+	int age;
+}

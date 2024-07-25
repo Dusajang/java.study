@@ -20,7 +20,8 @@ public class Ex03_04 {
 		String a = "xyz";
 		String b =  a.replace('y','와');
 		
-		//javatime 핵심클래스 불변
+		
+		//java.time 핵심클래스 불변
 		LocalDate ld = LocalDate.now();
 		System.out.println(ld); //2024-07-24
 		
@@ -32,7 +33,7 @@ public class Ex03_04 {
 		
 		//월 12 수정
 		ld = ld.withMonth(5);
-		ld.with(ChronoField.MONTH_OF_YEAR, 12);
+		ld = ld.with(ChronoField.MONTH_OF_YEAR, 12);
 		System.out.println(ld);
 		
 		//5달 빼기                 minusXXX(), plusXXX(), plus()

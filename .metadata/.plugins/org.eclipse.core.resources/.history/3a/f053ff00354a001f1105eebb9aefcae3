@@ -1,0 +1,18 @@
+package days19;
+
+import java.util.LinkedList;
+
+public class Ex03_02 {
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList();
+		list.add("박준용");
+		list.add("김준석");
+		list.add("김재민");
+		
+		System.out.println(list);
+
+	}//main
+
+}//class

@@ -1,0 +1,44 @@
+package days19;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		/*
+		3-2. ArrayList 컬렉션 클래스를 사용해서 ( 10분 )
+		  1) 팀원들의 이름을 요소로 추가    add(), addAll()
+		  2) 반복자를 사용해서 모든 요소(팀원들) 출력 
+		  3) 팀원들의 인원수를 출력
+		  4) 두 번째 팀원이 누구인지 확인 후 "홍길동" 팀원으로 수정
+		  
+		  5) "홍길동" 팀원의 존재 유무를 확인 후 삭제
+		  6) "이"씨 팀원들만 삭제 후 확인.
+		*/
+		
+		//김준석, 최사랑, 박준용, 원충희, 이시훈
+		ArrayList list = new ArrayList();
+		list.add("김준석");
+		list.add("최사랑");
+		list.add("박준용");
+		list.add("원충희");
+		list.add("이시훈");
+		
+		Iterator ir = list.iterator();
+		while (ir.hasNext()) {
+			String name = (String) ir.next();
+			System.out.println(name);
+		}
+		
+		System.out.println(list.size());
+		
+
+
+
+	}//main
+
+}//class

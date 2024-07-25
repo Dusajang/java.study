@@ -27,7 +27,7 @@ public class Ex02_03 {
 		double [] limits  = {0, 60, 70, 80, 90};
 		// 문자열
 		String [] formats = { "가","양", "미", "우", "수"};
-		ChoiceFormat cf = new ChoiceFormat(limits, formats);
+		ChoiceFormat cf = new ChoiceFormat(limits, formats);   //limits 범위에 해당하면, formats의 값을 반환
 		int [] kors = {99, 30, 89, 77, 62};
 		for (int i = 0; i < kors.length; i++) {
 			System.out.printf("%d (%s)\n"

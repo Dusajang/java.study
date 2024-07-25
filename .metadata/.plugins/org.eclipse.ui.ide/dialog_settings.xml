@@ -19,14 +19,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
-		<item key="LAST_QUERY" value="Student"/>
+		<item key="LAST_QUERY" value="Person"/>
 		<item key="PATH_FILTER" value=""/>
 		<item key="CASE_SENSITIVE" value="true"/>
 		<item key="KEEP_OPEN" value="false"/>
 		<list key="COLUMN_WIDTHS">
 			<item value="40"/>
 			<item value="336"/>
-			<item value="279"/>
+			<item value="262"/>
 		</list>
 		<list key="SASH_WEIGHTS">
 			<item value="714"/>

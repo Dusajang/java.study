@@ -1,0 +1,24 @@
+package days19;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		/* Set : HashSet, LinkedHashSet
+		 * [TreeSet] 컬렉션 클래스
+		 * 1. 중복 X, 순서 X
+		 * 2. "이진 검색 트리"라는 자료 구조로 
+		 *    데이터를 저장하는 컬렉션 클래스
+		 * 3. 링크드리스트처럼 노드(Node)가 서로 연결된 구조
+		 *    class TreeNode{
+		 *       Object value;
+		 *       
+		 *       TreeNode left;
+		 *       TreeNode right;
+		 *    }
+		 * 
+		 * 
+		 */
+
+	}
+
+}

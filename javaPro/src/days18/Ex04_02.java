@@ -18,13 +18,13 @@ public class Ex04_02 {
 		list.add("이시훈");
 		list.add("원충희");
 		list.add("김준석");
-		System.out.println(list.toString());
+		System.out.println(list.toString());    //toString() 생략 가능하다.
 		System.out.println(list);
 		System.out.println(list.size());
 		list.add("송세호");
 		System.out.println(list);
 		
-		System.out.println( list.contains("원충희") );
+		System.out.println( list.contains("원충희") );    //true/false 값으로 반환
 		
 		list.add("원충희");
 		
@@ -88,7 +88,7 @@ public class Ex04_02 {
 		
 		//iterator == 반복자
 		Iterator ir = list.iterator();
-		while (ir.hasNext()) {
+		while (ir.hasNext()) {                    //hasNext() : 읽어올 요소가 남아있는지 확인하는 메서드, 요소가 있으면 true, 없으면 false
 			String name = (String) ir.next();
 			System.out.println(name);
 		}

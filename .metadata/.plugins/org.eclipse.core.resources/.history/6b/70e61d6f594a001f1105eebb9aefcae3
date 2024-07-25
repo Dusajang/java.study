@@ -1,0 +1,46 @@
+package days19;
+
+import java.util.HashMap;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		/*
+		 * List - Al, V, LL, S, LL PQ
+		 * Set - HS, LHS, TS
+		 * [ Map ]
+		 * 1. key +value 한 쌍 관리 == Entry(엔트리)
+		 * 2. key 중복 x
+		 *    value 중복o
+		 * 3. HashMap(신) - 사용 권장
+		 *    HashTable(구)
+		 * 4. 해싱(Hashing)?
+		 *    -해시함수를 이용하여 데이터를 해시 테이블에 저장하고 검색하는 기법
+		 *    -해시함수?
+		 *     데이터를 저장하는 곳을 알려주는 함수
+		 *     데이터를 빠르게 검색할 수 있다.
+		 *     많은 양의 데이터를 검색할 때 뛰어남.
+		 */
+		//        id      name
+		HashMap<String, String> hm = new HashMap<String, String>();
+		hm.put("admin", "관리자");
+		hm.put("hong", "홍길동");
+		hm.put("keni", "이창익");
+		
+		System.out.println(hm);
+		
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+
+
+

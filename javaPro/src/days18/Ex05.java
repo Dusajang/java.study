@@ -22,7 +22,7 @@ public class Ex05 {
 
 		final int STUDENT_COUNT = 30;
 
-		ArrayList list = new ArrayList();
+		ArrayList list = new ArrayList();             //ArrayList list 객체 생성
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -48,7 +48,7 @@ public class Ex05 {
 			s.avg = avg;
 			s.rank = rank;
 			 */
-			Student s = new Student(name, kor, eng, mat, tot, rank, avg);
+			Student s = new Student(name, kor, eng, mat, tot, rank, avg);     //Student 클래스로 s 객체 생성
 
 			list.add(s);
 

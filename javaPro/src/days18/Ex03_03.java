@@ -65,8 +65,8 @@ public class Ex03_03 {
 		System.out.println(ms);
 		
 		//나노
-		int ns = lt.get(ChronoField.NANO_OF_SECOND);
-		ns = lt.get(ChronoField.NANO_OF_DAY);
+		long ns = lt.get(ChronoField.NANO_OF_SECOND);
+		ns = lt.getLong(ChronoField.NANO_OF_DAY);
 		ns = lt.getNano();
 		System.out.println(ns);
 
