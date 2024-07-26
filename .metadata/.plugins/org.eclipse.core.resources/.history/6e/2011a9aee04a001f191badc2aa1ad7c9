@@ -1,0 +1,24 @@
+package ch01.verify;
+
+public class Afgsdf {
+
+    int[] solution(int numer1, int denom1, int numer2, int denom2) {
+    	
+    	numer1=1; // 분자
+    	denom1=2; // 분모
+    	
+    	numer2=3; // 분자
+    	denom2=4; // 분모
+    	
+    	
+    	
+        int[] answer = {};
+        
+        
+        return answer;
+    }
+}
+
+
+
+

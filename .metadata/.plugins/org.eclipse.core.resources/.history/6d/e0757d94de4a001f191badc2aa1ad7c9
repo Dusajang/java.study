@@ -1,0 +1,37 @@
+package ch01.verify;
+
+public class Afgsdf {
+
+}
+class Solution {
+    public int[] solution(int numer1, int denom1, int numer2, int denom2) {
+    	
+    	numer1=1; // 분자
+    	denom1=2; // 분모
+    	
+    	numer2=3; // 분자
+    	denom2=4; // 분모
+    	
+    	if(denom1 > denom2) {
+    		if(denom2/denom1==0) {
+    			
+    		}else if (denom2/denom1!=0) {
+				
+			}
+    		
+    	}
+    	
+    	if(denom1 < denom2) {
+    		if(denom2/denom1==0)
+    	}
+    	
+        int[] answer = {};
+        
+        
+        return answer;
+    }
+}
+
+
+
+

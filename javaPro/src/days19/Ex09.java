@@ -22,15 +22,15 @@ public class Ex09 {
 		//Set : HashSet, 
 //		new Person1()
 //		.builder()
-//			.name("홍길동")
+//		.name("홍길동")
 //		.age(20)
 //		.id("victor")
 //		.build();
 		
 		Set s = new LinkedHashSet();
 		s.add(new Person1("victor","홍길동", 20 ));
-		s.add(new Person1("admin","관리자", 20 ));
-		s.add(new Person1("hong","홍길남", 25 ));
+		s.add(new Person1("admin","관리자", 25 ));
+		s.add(new Person1("hong","홍길남", 32 ));
 		
 		//ID가 똑같은 Person1 객체는 중복 처리를 해서 추가 X
 		s.add(new Person1("admin","관리자", 36 ));

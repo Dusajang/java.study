@@ -30,7 +30,7 @@ public class Ex04 {
 		
 		//System.out.println(s.search("홍길동"));
 		//System.out.println(s.search("김재민"));
-		//System.out.println(s.indexOf("김재민"));        // indexOf 가능은 하다.
+		//System.out.println(s.indexOf("김재민"));  // indexOf 가능은 하다.
 		
 		while (!s.empty()) {
 			System.out.println( s.pop() );

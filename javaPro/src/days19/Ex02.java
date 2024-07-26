@@ -38,8 +38,8 @@ public class Ex02 {
 //		vt.setSize(10);
 //		System.out.println(vt.capacity());
 		
-		System.out.println(vt.get(1));
-		System.out.println(vt.elementAt(1));
+		System.out.println(vt.get(1));    //1번 요소 가져오기
+		System.out.println(vt.elementAt(1));  //1번에 무슨 요소가 있는지
 		
 //		vt.remove(1);
 //		vt.removeElementAt(1);

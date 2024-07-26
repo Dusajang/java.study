@@ -19,6 +19,7 @@ public class Password {
         
         scanner.close();
     }
+	
     
     public static boolean checkPassword(String password) {
         // 비밀번호 유효성 검사 regex
