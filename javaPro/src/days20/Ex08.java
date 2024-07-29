@@ -44,7 +44,7 @@ public class Ex08 {
 		list.add("홍길동");
 		list.add("관리자");
 
-		// list.add(100);
+		// list.add(100);    list는 String 타입만 받기에 int를 넣으면 오류가 난다.
 
 		String name = list.get(0);
 

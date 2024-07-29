@@ -1,0 +1,84 @@
+package days21;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 29.오후 2:10:10
+ * @subject
+ * @content
+ *
+ */
+public class Ex07_02 {
+
+	public static void main(String[] args) {
+		
+		String content = "package days21;\r\n"
+				+ "\r\n"
+				+ "public class Ex01 {\r\n"
+				+ "\r\n"
+				+ "	//enum Direction {EAST, SOUTH, WEST, NORTH}\r\n"
+				+ "	enum Direction {EAST(100, \"▶\"), SOUTH(200, \"▼\"), WEST(300, \"◀\"), NORTH(400,\"▲\") ;\r\n"
+				+ "\r\n"
+				+ "		private int value;\r\n"
+				+ "		private String symbol;\r\n"
+				+ "\r\n"
+				+ "		Direction(int value, String symbol) {\r\n"
+				+ "			this.value = value;\r\n"
+				+ "			this.symbol = symbol;\r\n"
+				+ "\r\n"
+				+ "		}\r\n"
+				+ "\r\n"
+				+ "\r\n"
+				+ "\r\n"
+				+ "		/*\r\n"
+				+ "		 * 컴파일러가 클래스로 변환\r\n"
+				+ "		 * class Direction extends Enum{\r\n"
+				+ "		 *   static final Direction EAST = new Direction();\r\n"
+				+ "		 *   \r\n"
+				+ "		 *   private String name;\r\n"
+				+ "		 *   public String name(){\r\n"
+				+ "		 *      return this.name;\r\n"
+				+ "		 *   }\r\n"
+				+ "		 *   private int ordinal;\r\n"
+				+ "		 *   public int ordinal(){\r\n"
+				+ "		 *      return this.ordinal;\r\n"
+				+ "		 *   }\r\n"
+				+ "		 * }\r\n"
+				+ "		 */\r\n"
+				+ "\r\n"
+				+ "		public static void main(String[] args) {\r\n"
+				+ "			//		System.out.println(Direction.EAST);   // \"EAST\"\r\n"
+				+ "			//		System.out.println(Direction.EAST.toString());   // \"EAST\"\r\n"
+				+ "			//		System.out.println(Direction.EAST.name());    // \"EAST\"\r\n"
+				+ "			//		System.out.println(Direction.EAST.ordinal());   // 0 index\r\n"
+				+ "\r\n"
+				+ "			/*\r\n"
+				+ "		Direction [] dirArr = Direction.values();\r\n"
+				+ "		for(Direction dif : dirArr) {\r\n"
+				+ "			System.out.println(\r\n"
+				+ "					dir.name() + \"/\"\r\n"
+				+ "					+dir.ordinal() + \"/\"\r\n"
+				+ "					+dir.getSymbil() + \"/\"\r\n"
+				+ "					+dir.getValue());\r\n"
+				+ "			 */\r\n"
+				+ "		}\r\n"
+				+ "		}//main\r\n"
+				+ "\r\n"
+				+ "	}//class\r\n"
+				+ "";
+		
+		//문제 Ex01.java 파일의 21번째 라인의 문자열
+		//String line21 변수에 저장한 후 출력
+		
+		
+		
+
+	}//main
+
+}//class
+
+
+
+
+
+
+

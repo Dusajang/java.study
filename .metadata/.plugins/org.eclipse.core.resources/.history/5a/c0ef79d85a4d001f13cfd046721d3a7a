@@ -1,0 +1,60 @@
+package days21;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 29.오전 11:15:50
+ * @subject      Ex01.java -> Ex01Copy.java
+ * @content      FileInputStream   FileOutputStream
+ *                  1문자씩 읽어와서 그대로 쓰면 -> 복사
+ *
+ */
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		String sourceFile = "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\KakaoTalk.exe";
+		String copyFile = "C:\\Users\\User\\Documents\\KakaoTalk_copy.exe";
+		
+		
+		
+		
+		fileCopyBinaryStream(sourceFile, copyFile);
+		
+//		File filename = new File(sourceFile);
+//		filename.getName();
+//		System.out.println(filename.getName());
+		
+		//> 복사 처리 시간 : 2935800(ns)
+
+	}//main
+
+	private static void fileCopyBinaryStream(String sourceFile, String copyFile) {
+		
+		long start = System.nanoTime();
+		
+		try (FileInputStream fis = new FileInputStream(sourceFile);
+				FileOutputStream fos = new FileOutputStream(copyFile);){
+			int code;
+			while ((code = fis.read()) != -1) {
+				System.out.printf("%08d\n", Integer.parseInt( Integer.toBinaryString(code) ) );
+				fos.wait(code);
+			}//while
+			fos.flush();
+			System.out.println("파일 복사 완료");
+			
+			long end = System.nanoTime();
+			 System.out.printf("> 복사 처리 시간 : %d(ns)\n", (end-start));
+			 
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}//class

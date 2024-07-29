@@ -1,0 +1,21 @@
+package days21;
+
+public class Ex01 {
+	
+	enum Direction {EAST, SOUTH, WEST, NORTH}
+	/*
+	 * 컴파일러가 클래스로 변환
+	 * class Direction extends Enum{
+	 *   static final Direction EAST = new Direction();
+	 * }
+	 */
+
+	public static void main(String[] args) {
+		System.out.println(Direction.EAST);   // "EAST"
+		System.out.println(Direction.EAST.toString());   // "EAST"
+		System.out.println(Direction.EAST.name());    // "EAST"
+		System.out.println(Direction.EAST.ordinal());   // 0 index
+
+	}//main
+
+}//class

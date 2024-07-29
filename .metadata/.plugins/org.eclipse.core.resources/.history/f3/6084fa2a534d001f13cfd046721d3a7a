@@ -1,0 +1,40 @@
+package days21;
+
+import java.io.File;
+
+/**
+ * @author dkrkdfla
+ * @date 2024. 7. 29.오전 11:15:50
+ * @subject      Ex01.java -> Ex01Copy.java
+ * @content      FileReader   Filewriter
+ *                  1문자씩 읽어와서 그대로 쓰면 -> 복사
+ *
+ */
+public class Ex05 {
+
+	public static void main(String[] args) {
+		
+		String sourceFile = ".\\src\\days21\\Ex01.java";
+		String copyFile = "";
+		
+		int idx = sourceFile.lastIndexOf("\\");
+		System.out.println(idx);
+		
+		String parent = sourceFile.substring(1, idx);
+		System.out.println(parent);
+		String child = sourceFile.substring(idx+1);
+		System.out.println(child);
+		
+		idx = child.indexOf(".");
+		String fileName = child.substring(0, idx);
+		System.out.println(fileName);
+		String ext = child.substring(idx);
+		System.out.println(ext);
+		
+//		File filename = new File(sourceFile);
+//		filename.getName();
+//		System.out.println(filename.getName());
+
+	}//main
+
+}//class
